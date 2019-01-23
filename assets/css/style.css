@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+
+
+
+.bg-color-nav {
+    background-color: #000000;
+    min-height: 100px;
+}
+
+
+/*---------------------------------------------------------------------nav*/
+
+.logo {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+
+.menu-items {
+    
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: right;
+    transform: perspective(1px) translateY(150%);
+    
+  
+    
+}
+
+.menu-items a{
+    color: #ffcb0c;
+    margin: 35px;
+    
+   
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+/*---------------------------------------------------------------------nav*/
+
+footer {
+    background-color: #ffcb0c;
+    color: #fafafa;
+    min-height: 100px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px; 0; 
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #000000;
+    background-color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+} 
+    
+.social-links li a i:hover {
+    background: #FF4500;
+}
