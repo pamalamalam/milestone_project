@@ -5,7 +5,11 @@
 .bg-color-nav {
     background-color: #000000;
     min-height: 100px;
+    min-width: 100%;
+    display: block;
+    
 }
+
 
 
 /*---------------------------------------------------------------------nav*/
@@ -47,23 +51,80 @@
     padding: 0;
 }
 
-/*---------------------------------------------------------------------nav*/
+/*---------------------------------------------------------------------home page*/
+
+.img-fluid {
+    min-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img_monkees_home {
+    opacity: 0.85;
+}
+
+/*---------------------------------------------------------------------tour banner*/
+.tour-banner {
+    background-color: #000000;
+    min-height: 600px;
+    min-width: 100%;
+    display: block;
+}
+
+.title-tour-banner {
+    font-family: "Raleway" 600;
+    font-size: 45px;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.table {
+     max-width: 70%;
+     margin: auto;
+     margin-top: 100px;
+}
+
+.table-color{
+    padding: 50px;
+    font-family: "Raleway" 100;
+    font-size: 15px;
+    color: #fafafa;
+    text-align: center;
+    
+
+    
+}
+
+
+/*---------------------------------------------------------------------footer*/
 
 footer {
     background-color: #ffcb0c;
     color: #fafafa;
+    position:absolute;
     min-height: 100px;
+    min-width: 100%;
+    display: block;
+    
 }
+
+.footer-details {
+    font-family: "Raleway" 200 ;
+    font-size: 25px;
+}
+
 
 .social-links {
     padding-bottom: 15px;
     padding-top: 40px;
+    float: right;
 }
 
 .social-links li a i{
     width: 32px;
     height: 32px;
-    padding: 12px; 0; 
+    padding: 10px;
     border-radius: 50%;
     font-size: 15px;
     line-height: 7px;
@@ -78,4 +139,43 @@ footer {
     
 .social-links li a i:hover {
     background: #FF4500;
+}
+
+
+
+html body{
+  margin:0;
+}
+
+
+
+
+
+     
+ 
+/*---------------------------------------------------------------------contact page*/ 
+ 
+
+form {
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+.form-control{
+    margin-top: 100px;
+}
+
+/*---------------------------------------media query*/
+
+
+@media (max-width: 768px){ 
+  .menu-items {
+    width:100%;
+    float: left;
+    
+  }
+  
+  
+ 
+    
 }
