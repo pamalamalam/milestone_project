@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
 
+.img-music{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+
 
 
 .bg-color-nav {
@@ -11,6 +19,19 @@
 }
 
 
+.bg-color-music {
+    background-color: #ffff99;
+    min-height: 600px;
+    min-width: 100%;
+    display: block;
+}
+
+.bg-color-join{
+    background-color: #ffff99;
+    min-height: 600px;
+    min-width: 100%;
+    display: block;
+}
 
 /*---------------------------------------------------------------------nav*/
 
@@ -164,6 +185,16 @@ form {
 .form-control{
     margin-top: 100px;
 }
+
+
+
+
+
+
+
+/*---------------------------------------music page*/
+
+
 
 /*---------------------------------------media query*/
 
